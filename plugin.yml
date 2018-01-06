@@ -1,0 +1,12 @@
+name: KlawScoreboard
+main: org.golde.bukkit.klawscoreboard.Main
+version: 1.0
+author: Eric Golde
+description: Custom scoreboard plugin made for KlawUHC
+website: http://eric.golde.org/
+commands:
+   sethost:
+      description: Sets the host for everyone
+      usage: /sethost <username> 
+      permission: klawscoreboard.sethost
+      permission-message: Nope!
